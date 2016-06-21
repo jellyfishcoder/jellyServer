@@ -1,0 +1,8 @@
+Tue, 21 Jun 2016 16:29:20 -0500
+README.rdoc	Tue, 21 Jun 2016 16:27:00 -0500
+app/controllers/application_controller.rb	Tue, 21 Jun 2016 13:14:28 -0500
+app/controllers/posts_controller.rb	Tue, 21 Jun 2016 13:29:16 -0500
+app/helpers/application_helper.rb	Tue, 21 Jun 2016 13:14:28 -0500
+app/helpers/posts_helper.rb	Tue, 21 Jun 2016 13:29:16 -0500
+app/models/post.rb	Tue, 21 Jun 2016 13:29:16 -0500
+app/uploaders/picture_uploader.rb	Tue, 21 Jun 2016 15:10:42 -0500

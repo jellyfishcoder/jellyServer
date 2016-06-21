@@ -1,5 +1,5 @@
 == jellyServer
-= A Ruby on Rails Site
+=== A Ruby on Rails Site
 {<img src="https://codeclimate.com/github/jellyfishcoder/jellyServer/badges/gpa.svg" />}[https://codeclimate.com/github/jellyfishcoder/jellyServer]
 
 This README would normally document whatever steps are necessary to get the
