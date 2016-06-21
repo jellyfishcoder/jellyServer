@@ -7,6 +7,8 @@ gem 'rails', '4.2.6'
 ## Database
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# Use carrierwave for something
+gem 'carrierwave'
 # Use devise for Authentication
 gem 'devise'
 
