@@ -1,0 +1,21 @@
+{
+  "name": "jelly_server",
+  "version": "0.0.1dev",
+  "homepage": "http://jellyserver.mcpe.me",
+  "authors": [
+    "Jellyfishcoder <jellyfishcoder@gmail.com>"
+  ],
+  "description": "A Ruby on Rails site under development",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0"
+  }
+}
