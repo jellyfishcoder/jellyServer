@@ -22,5 +22,8 @@ module JellyServer
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+  
+    # Tell the asset pipeline to look in vendor/assets/components, which contains Bower components.
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'components')
   end
 end
