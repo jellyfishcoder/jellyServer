@@ -1,5 +1,14 @@
 Rails.application.routes.draw do
-  
+  # resources :posts do
+  #   member do
+  #     option toggle
+  #       get :posts/?:edit?/
+  #     option none
+  #       get :posts/
+  #     end
+  #   end
+  # end
+
   root :to => redirect('/posts')
   resources :posts
   # The priority is based upon order of creation: first created -> highest priority.
