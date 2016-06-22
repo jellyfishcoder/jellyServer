@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/landing'
+
   # resources :posts do
   #   member do
   #     option toggle
