@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+
   get 'pages/landing'
 
   # resources :posts do
@@ -10,9 +12,18 @@ Rails.application.routes.draw do
   #     end
   #   end
   # end
-
+  
+  # Set root to redirect to /posts
   root :to => redirect('/posts')
+
+  # Set /posts to go to posts page
   resources :posts
+  
+  # Use custom devise controllers instead of generated ones
+  devise_for :users, controllers: {
+    registrations: 'registrations'
+  }
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
