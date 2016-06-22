@@ -1,6 +1,7 @@
 = jellyServer
 === A Ruby on Rails Site
 {<img src="https://codeclimate.com/github/jellyfishcoder/jellyServer/badges/gpa.svg" />}[https://codeclimate.com/github/jellyfishcoder/jellyServer] {<img src="https://travis-ci.org/jellyfishcoder/jellyServer.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/jellyfishcoder/jellyServer]
+{<img src="https://gemnasium.com/badges/github.com/jellyfishcoder/jellyServer.svg" alt="Dependency Status" />}[https://gemnasium.com/github.com/jellyfishcoder/jellyServer]
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
