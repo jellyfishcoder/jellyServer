@@ -41,7 +41,7 @@ rules:
   valid-jsdoc: 0
   valid-typeof: 2
 
-  # Best Practices
+  #Best Practices
   accessor-pairs: 2
   block-scoped-var: 0
   complexity: [2, 6]
