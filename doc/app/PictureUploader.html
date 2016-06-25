@@ -70,6 +70,10 @@
 
   <ul class="link-list" role="directory">
     
+    <li ><a href="#method-i-extension_white_list">#extension_white_list</a>
+    
+    <li ><a href="#method-i-scale">#scale</a>
+    
     <li ><a href="#method-i-store_dir">#store_dir</a>
     
   </ul>
@@ -104,6 +108,73 @@
        <header>
          <h3>Public Instance Methods</h3>
        </header>
+
+    
+      <div id="method-i-extension_white_list" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">extension_white_list</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Add a white list of extensions which are allowed to be uploaded. For images
+you might use something like this:</p>
+          
+          
+
+          
+          <div class="method-source-code" id="extension_white_list-source">
+            <pre><span class="ruby-comment"># File app/uploaders/picture_uploader.rb, line 40</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">extension_white_list</span>
+  <span class="ruby-node">%w(jpg jpeg gif png tiff svg jp2 j2k jpf jpx jpm bmp)</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-scale" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">scale</span><span
+            class="method-args">(width, height)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="scale-source">
+            <pre><span class="ruby-comment"># File app/uploaders/picture_uploader.rb, line 29</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">scale</span>(<span class="ruby-identifier">width</span>, <span class="ruby-identifier">height</span>)
+  <span class="ruby-identifier">process</span> <span class="ruby-value">:resize_to_fit</span> =<span class="ruby-operator">&gt;</span> [<span class="ruby-identifier">width</span>, <span class="ruby-identifier">height</span>] 
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
 
     
       <div id="method-i-store_dir" class="method-detail ">

@@ -1,8 +1,17 @@
-Tue, 21 Jun 2016 16:29:20 -0500
-README.rdoc	Tue, 21 Jun 2016 16:27:00 -0500
+Sat, 25 Jun 2016 17:45:23 -0500
+README.rdoc	Tue, 21 Jun 2016 19:43:31 -0500
+app/controllers/DeviseController/confirmations_controller.rb	Fri, 24 Jun 2016 14:22:52 -0500
+app/controllers/DeviseController/omniauth_callbacks_controller.rb	Fri, 24 Jun 2016 14:22:52 -0500
+app/controllers/DeviseController/passwords_controller.rb	Fri, 24 Jun 2016 14:22:52 -0500
+app/controllers/DeviseController/registrations_controller.rb	Fri, 24 Jun 2016 14:22:52 -0500
+app/controllers/DeviseController/sessions_controller.rb	Fri, 24 Jun 2016 14:22:52 -0500
+app/controllers/DeviseController/unlocks_controller.rb	Fri, 24 Jun 2016 14:22:52 -0500
 app/controllers/application_controller.rb	Tue, 21 Jun 2016 13:14:28 -0500
+app/controllers/pages_controller.rb	Wed, 22 Jun 2016 12:43:14 -0500
 app/controllers/posts_controller.rb	Tue, 21 Jun 2016 13:29:16 -0500
 app/helpers/application_helper.rb	Tue, 21 Jun 2016 13:14:28 -0500
+app/helpers/pages_helper.rb	Wed, 22 Jun 2016 12:43:14 -0500
 app/helpers/posts_helper.rb	Tue, 21 Jun 2016 13:29:16 -0500
 app/models/post.rb	Tue, 21 Jun 2016 13:29:16 -0500
-app/uploaders/picture_uploader.rb	Tue, 21 Jun 2016 15:10:42 -0500
+app/models/user.rb	Fri, 24 Jun 2016 14:22:52 -0500
+app/uploaders/picture_uploader.rb	Wed, 22 Jun 2016 12:40:29 -0500
